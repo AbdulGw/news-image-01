@@ -20,7 +20,7 @@ const ASSET_FILENAME = "cross_section.jpg";
 const TARGET_WIDTH = 1024;
 const TARGET_HEIGHT = 1024;
 const BYTE_LIMIT = 1048576;
-const EXPECTED_DIGEST = "acd7d5711e0e795d25678c9ff4cfb0fbd5d022e3f18a1879b0f4e8f23d3e81ed";
+const EXPECTED_DIGEST = "ebdfc569aef832eddf9abd0c1a6b96c824accc3b5b18e9b10689d3382f59c31d";
 
 function readJpegExtent(raw: Buffer): { width: number; height: number } {
   if (raw.length < 4 || raw[0] !== 0xff || raw[1] !== 0xd8) {

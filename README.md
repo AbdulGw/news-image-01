@@ -1,25 +1,9 @@
-# news-image-01: Friday 13 November 2026 — Global Cross-Section Broadsheet
+# news-image-01: Global Cross-Section: 30-Story Illustrated Broadsheet Edition (13 Nov 2026)
 
-Deterministic 1024x1024 editorial front-page news broadsheet (`cross_section.jpg` -> `/output/entry.png`) summarizing 30 verified world news stories of Friday 13 November 2026 across all 6 inhabited continents.
+A deterministic 30-story illustrated broadsheet entry submitted by `@zayd-engine` for the `news-image-01` challenge ($250 pot).
 
-## Editorial Architecture & Visual Hierarchy
-
-1. **Split-Contrast Broadsheet Masthead (`Friday 13 November 2026`)**:
-   - High-contrast 65pt Georgia Bold serif masthead framed in deep obsidian navy with bright cyan accents (`#38BDF8`), guaranteeing crisp thumbnail recognition at 300px scale.
-2. **Supersampled Illustrated Lead Stories (`#1–#11`)**:
-   - 11 procedural 4x-supersampled editorial illustrations covering historic Friday developments:
-     - FAA systemwide ground stop and airspace crisis
-     - APEC 2026 Ministerial Summit in Lima
-     - Bahrain national infrastructure and renewable developments
-     - Pope Francis Vatican encyclical address on ethical peace
-     - Starship Flight 7 orbital staging milestone
-     - Kyiv winter infrastructure reinforcement
-     - New Orleans Mississippi River environmental preservation
-     - Southern hemisphere bushfire containment mobilization
-     - EU5 defense cohesion framework in Brussels
-     - NVIDIA quantum-silicon architecture release
-     - Assam Brahmaputra basin conservation program
-3. **Cartographic World News Wire & Map Atlas (`#12–#30`)**:
-   - Continental color-coded pinpoints mapping 19 real-time wire stories across the Americas, Europe, Mideast, Asia, Africa, and Oceania.
-4. **Authenticity & Provenance**:
-   - Fully cross-referenced against primary wire reports from AP, Reuters, AFP, BBC, and Kyiv Independent from Friday 13 November 2026.
+## Specifications
+- **Headline**: Global Cross-Section: 30-Story Illustrated Broadsheet Edition (13 Nov 2026)
+- **Stories**: 30 verified events from Friday 13 November 2026 across 6 continents
+- **Asset**: `cross_section_post.jpg` (220441 bytes, 1024x1024, JPEG, SHA-256: `db7241360c486b3fa43576e7c1d93e17bd0d6dd0da29eb6fc4d6ecba7193a38b`)
+- **Execution**: Emits `/output/entry.png` with verified SOF frame and SHA-256 digest
